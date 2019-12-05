@@ -43,10 +43,10 @@ RM = /usr/local/Cellar/cmake/3.15.4/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/pengcheng/Downloads/sub/hw2完整版/Assignment_2
+CMAKE_SOURCE_DIR = /Users/pengcheng/Desktop/graphic/hw2/Assignment_2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/pengcheng/Downloads/sub/hw2完整版/Assignment_2/build
+CMAKE_BINARY_DIR = /Users/pengcheng/Desktop/graphic/hw2/Assignment_2/build
 
 # Utility rule file for uninstall.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /Users/pengcheng/Downloads/sub/hw2完整版/Assignment_2/buil
 include glfw/CMakeFiles/uninstall.dir/progress.make
 
 glfw/CMakeFiles/uninstall:
-	cd /Users/pengcheng/Downloads/sub/hw2完整版/Assignment_2/build/glfw && /usr/local/Cellar/cmake/3.15.4/bin/cmake -P /Users/pengcheng/Downloads/sub/hw2完整版/Assignment_2/build/glfw/cmake_uninstall.cmake
+	cd /Users/pengcheng/Desktop/graphic/hw2/Assignment_2/build/glfw && /usr/local/Cellar/cmake/3.15.4/bin/cmake -P /Users/pengcheng/Desktop/graphic/hw2/Assignment_2/build/glfw/cmake_uninstall.cmake
 
 uninstall: glfw/CMakeFiles/uninstall
 uninstall: glfw/CMakeFiles/uninstall.dir/build.make
@@ -67,10 +67,10 @@ glfw/CMakeFiles/uninstall.dir/build: uninstall
 .PHONY : glfw/CMakeFiles/uninstall.dir/build
 
 glfw/CMakeFiles/uninstall.dir/clean:
-	cd /Users/pengcheng/Downloads/sub/hw2完整版/Assignment_2/build/glfw && $(CMAKE_COMMAND) -P CMakeFiles/uninstall.dir/cmake_clean.cmake
+	cd /Users/pengcheng/Desktop/graphic/hw2/Assignment_2/build/glfw && $(CMAKE_COMMAND) -P CMakeFiles/uninstall.dir/cmake_clean.cmake
 .PHONY : glfw/CMakeFiles/uninstall.dir/clean
 
 glfw/CMakeFiles/uninstall.dir/depend:
-	cd /Users/pengcheng/Downloads/sub/hw2完整版/Assignment_2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/pengcheng/Downloads/sub/hw2完整版/Assignment_2 /Users/pengcheng/Downloads/sub/hw2完整版/ext/glfw /Users/pengcheng/Downloads/sub/hw2完整版/Assignment_2/build /Users/pengcheng/Downloads/sub/hw2完整版/Assignment_2/build/glfw /Users/pengcheng/Downloads/sub/hw2完整版/Assignment_2/build/glfw/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/pengcheng/Desktop/graphic/hw2/Assignment_2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/pengcheng/Desktop/graphic/hw2/Assignment_2 /Users/pengcheng/Desktop/graphic/hw2/ext/glfw /Users/pengcheng/Desktop/graphic/hw2/Assignment_2/build /Users/pengcheng/Desktop/graphic/hw2/Assignment_2/build/glfw /Users/pengcheng/Desktop/graphic/hw2/Assignment_2/build/glfw/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : glfw/CMakeFiles/uninstall.dir/depend
 

@@ -1,4 +1,4 @@
-# Install script for directory: /Users/pengcheng/Downloads/sub/hw2完整版/Assignment_2
+# Install script for directory: /Users/pengcheng/Desktop/graphic/hw2/Assignment_2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/pengcheng/Downloads/sub/hw2完整版/Assignment_2/build/glfw/cmake_install.cmake")
+  include("/Users/pengcheng/Desktop/graphic/hw2/Assignment_2/build/glfw/cmake_install.cmake")
 
 endif()
 
@@ -46,5 +46,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/pengcheng/Downloads/sub/hw2完整版/Assignment_2/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/pengcheng/Desktop/graphic/hw2/Assignment_2/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

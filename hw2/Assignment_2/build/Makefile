@@ -48,10 +48,10 @@ RM = /usr/local/Cellar/cmake/3.15.4/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/pengcheng/Downloads/sub/hw2完整版/Assignment_2
+CMAKE_SOURCE_DIR = /Users/pengcheng/Desktop/graphic/hw2/Assignment_2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/pengcheng/Downloads/sub/hw2完整版/Assignment_2/build
+CMAKE_BINARY_DIR = /Users/pengcheng/Desktop/graphic/hw2/Assignment_2/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,9 +126,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/pengcheng/Downloads/sub/hw2完整版/Assignment_2/build/CMakeFiles /Users/pengcheng/Downloads/sub/hw2完整版/Assignment_2/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/pengcheng/Desktop/graphic/hw2/Assignment_2/build/CMakeFiles /Users/pengcheng/Desktop/graphic/hw2/Assignment_2/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/pengcheng/Downloads/sub/hw2完整版/Assignment_2/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/pengcheng/Desktop/graphic/hw2/Assignment_2/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

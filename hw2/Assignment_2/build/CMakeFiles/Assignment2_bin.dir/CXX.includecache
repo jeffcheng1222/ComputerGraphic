@@ -1268,7 +1268,7 @@ GL/glext.h
 GL/glu.h
 -
 
-/Users/pengcheng/Downloads/sub/hw2完整版/Assignment_2/src/Helpers.h
+/Users/pengcheng/Desktop/graphic/hw2/Assignment_2/src/Helpers.h
 string
 -
 vector
@@ -1286,13 +1286,13 @@ windows.h
 GL/gl.h
 -
 
-/Users/pengcheng/Downloads/sub/hw2完整版/Assignment_2/src/main.cpp
+/Users/pengcheng/Desktop/graphic/hw2/Assignment_2/src/main.cpp
 stdlib.h
 -
 stdio.h
 -
 Helpers.h
-/Users/pengcheng/Downloads/sub/hw2完整版/Assignment_2/src/Helpers.h
+/Users/pengcheng/Desktop/graphic/hw2/Assignment_2/src/Helpers.h
 GLFW/glfw3.h
 -
 GLFW/glfw3.h

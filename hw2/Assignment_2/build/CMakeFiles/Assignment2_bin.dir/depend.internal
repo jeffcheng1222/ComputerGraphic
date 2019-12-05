@@ -168,8 +168,8 @@ CMakeFiles/Assignment2_bin.dir/src/Helpers.cpp.o
  ../../ext/eigen/Eigen/src/plugins/MatrixCwiseBinaryOps.h
  ../../ext/eigen/Eigen/src/plugins/MatrixCwiseUnaryOps.h
  ../../ext/eigen/Eigen/src/plugins/ReshapedMethods.h
- /Users/pengcheng/Downloads/sub/hw2完整版/Assignment_2/src/Helpers.cpp
- /Users/pengcheng/Downloads/sub/hw2完整版/Assignment_2/src/Helpers.h
+ /Users/pengcheng/Desktop/graphic/hw2/Assignment_2/src/Helpers.cpp
+ /Users/pengcheng/Desktop/graphic/hw2/Assignment_2/src/Helpers.h
 CMakeFiles/Assignment2_bin.dir/src/main.cpp.o
  ../../ext/eigen/Eigen/Cholesky
  ../../ext/eigen/Eigen/Core
@@ -405,5 +405,5 @@ CMakeFiles/Assignment2_bin.dir/src/main.cpp.o
  ../../ext/eigen/Eigen/src/plugins/MatrixCwiseUnaryOps.h
  ../../ext/eigen/Eigen/src/plugins/ReshapedMethods.h
  ../../ext/glfw/include/GLFW/glfw3.h
- /Users/pengcheng/Downloads/sub/hw2完整版/Assignment_2/src/Helpers.h
- /Users/pengcheng/Downloads/sub/hw2完整版/Assignment_2/src/main.cpp
+ /Users/pengcheng/Desktop/graphic/hw2/Assignment_2/src/Helpers.h
+ /Users/pengcheng/Desktop/graphic/hw2/Assignment_2/src/main.cpp

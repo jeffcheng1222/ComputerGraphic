@@ -61,11 +61,15 @@ Eigen::Affine2f View(Eigen::Translation2f(0.f, 0.f));
 const Eigen::Vector3f Red = Eigen::Vector3f(1, 0, 0);
 const Eigen::Vector3f Blue = Eigen::Vector3f(0, 0, 1);
 
+
+// Get number of triangles on canvas
 int GetNumTriangles()
 {
 	return V.cols() / 3;
 }
 
+
+// Set position of a vertex
 void BSetVertex(int triInd, int vInd, const Eigen::Vector2f &p)
 {
 	if (triInd < 0)
@@ -82,6 +86,7 @@ void BSetVertex(int triInd, int vInd, const Eigen::Vector2f &p)
 		E.col(triInd * 6 + 2 * vInd - 1) = E.col(triInd * 6 + 2 * vInd) = p;
 }
 
+// Set color of a vertex
 void BSetVertexColor(int triInd, int vInd, const Eigen::Vector3f& c)
 {
 	if (triInd < 0)
@@ -93,6 +98,8 @@ void BSetVertexColor(int triInd, int vInd, const Eigen::Vector3f& c)
 	C.col(triInd * 3 + vInd) = c;
 }
 
+
+// Add a triangle
 void BAddTriangle(const Eigen::MatrixXf &tri)
 {
 	assert(tri.rows() == 2 && tri.cols() == 3);
@@ -107,6 +114,8 @@ void BAddTriangle(const Eigen::MatrixXf &tri)
 	}
 }
 
+
+// Get a triangle by its index
 void BAddTriangle(const Eigen::Vector2f &a, const Eigen::Vector2f &b, const Eigen::Vector2f &c)
 {
 	V.conservativeResize(V.rows(), V.cols() + 3);
@@ -122,6 +131,8 @@ void BAddTriangle(const Eigen::Vector2f &a, const Eigen::Vector2f &b, const Eige
 	BSetVertexColor(-1, 2, Red);
 }
 
+
+// Get a triangle by its index
 Eigen::MatrixXf BGetTriangle(int triInd)
 {
 	if (triInd < 0)
@@ -206,6 +217,8 @@ int findTriIndByPos(const Eigen::Vector2f& p)
 	return target;
 }
 
+
+// Unselected the currently selected triangle. This will reset the color of the triangle to red.
 void unselectTriangle()
 {
 	if (selectedTriInd == -1) return;
@@ -216,6 +229,8 @@ void unselectTriangle()
 	selectedTriInd = -1;
 }
 
+
+// Mark a triangle selected given its index. This will set the color of the triangle to blue
 void selectTriangle(int triInd)
 {
 	unselectTriangle();
@@ -229,6 +244,8 @@ void selectTriangle(int triInd)
 	}
 }
 
+
+// Handle mouse click in Translate state
 void translateHandleClick(int action, const Eigen::Vector2f &worldP)
 {
 	if (action == GLFW_PRESS)
@@ -248,6 +265,10 @@ void translateHandleClick(int action, const Eigen::Vector2f &worldP)
 }
 
 int selectedVertex = -1;
+
+
+
+// Handle mouse click in Color state
 void colorHandleClick(const Eigen::Vector2f& worldP)
 {
 	float min_dist2 = 1.e38;
@@ -264,6 +285,8 @@ void colorHandleClick(const Eigen::Vector2f& worldP)
 	}
 }
 
+
+// Handle mouse click in Delete state.
 void deleteHandleClick(const Eigen::Vector2f& worldP)
 {
 	int targetTriInd = findTriIndByPos(worldP);
@@ -488,7 +511,7 @@ void exportSVG(GLFWwindow *window)
 		fprintf(f, "<polygon points=\"%d %d %d %d %d %d\" stroke=\"black\" fill=\"%f\" stroke-width=\"2\" />",
 			int(T(0, 0) * w_width / 2), -int(T(1, 0) * w_height / 2), 
 			int(T(0, 1) * w_width / 2), -int(T(1, 1) * w_height / 2), 
-			int(T(0, 2) * w_width / 2), -int(T(1, 2) * w_height / 2))
+			int(T(0, 2) * w_width / 2), -int(T(1, 2) * w_height / 2));
 		
 		
 	}

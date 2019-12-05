@@ -6,7 +6,7 @@ C_FLAGS =  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -f
 
 C_DEFINES = -D_GLFW_USE_CONFIG_H
 
-C_INCLUDES = -I/Users/pengcheng/Downloads/sub/hw2完整版/Assignment_2/src -I/Users/pengcheng/Downloads/sub/hw2完整版/Assignment_2/../ext/eigen -I/Users/pengcheng/Downloads/sub/hw2完整版/ext/glfw/include -I/Users/pengcheng/Downloads/sub/hw2完整版/ext/glfw/src -I/Users/pengcheng/Downloads/sub/hw2完整版/Assignment_2/build/glfw/src 
+C_INCLUDES = -I/Users/pengcheng/Desktop/graphic/hw2/Assignment_2/src -I/Users/pengcheng/Desktop/graphic/hw2/Assignment_2/../ext/eigen -I/Users/pengcheng/Desktop/graphic/hw2/ext/glfw/include -I/Users/pengcheng/Desktop/graphic/hw2/ext/glfw/src -I/Users/pengcheng/Desktop/graphic/hw2/Assignment_2/build/glfw/src 
 
 # Custom flags: glfw/src/CMakeFiles/glfw.dir/context.c.o_FLAGS = -Wdeclaration-after-statement
 

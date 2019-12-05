@@ -48,10 +48,10 @@ RM = /usr/local/Cellar/cmake/3.15.4/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/pengcheng/Downloads/sub/hw2完整版/Assignment_2
+CMAKE_SOURCE_DIR = /Users/pengcheng/Desktop/graphic/hw2/Assignment_2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/pengcheng/Downloads/sub/hw2完整版/Assignment_2/build
+CMAKE_BINARY_DIR = /Users/pengcheng/Desktop/graphic/hw2/Assignment_2/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ list_install_components/fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/pengcheng/Downloads/sub/hw2完整版/Assignment_2/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/pengcheng/Downloads/sub/hw2完整版/Assignment_2/build/CMakeFiles /Users/pengcheng/Downloads/sub/hw2完整版/Assignment_2/build/glfw/CMakeFiles/progress.marks
-	cd /Users/pengcheng/Downloads/sub/hw2完整版/Assignment_2/build && $(MAKE) -f CMakeFiles/Makefile2 glfw/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/pengcheng/Downloads/sub/hw2完整版/Assignment_2/build/CMakeFiles 0
+	cd /Users/pengcheng/Desktop/graphic/hw2/Assignment_2/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/pengcheng/Desktop/graphic/hw2/Assignment_2/build/CMakeFiles /Users/pengcheng/Desktop/graphic/hw2/Assignment_2/build/glfw/CMakeFiles/progress.marks
+	cd /Users/pengcheng/Desktop/graphic/hw2/Assignment_2/build && $(MAKE) -f CMakeFiles/Makefile2 glfw/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/pengcheng/Desktop/graphic/hw2/Assignment_2/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/pengcheng/Downloads/sub/hw2完整版/Assignment_2/build && $(MAKE) -f CMakeFiles/Makefile2 glfw/clean
+	cd /Users/pengcheng/Desktop/graphic/hw2/Assignment_2/build && $(MAKE) -f CMakeFiles/Makefile2 glfw/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/pengcheng/Downloads/sub/hw2完整版/Assignment_2/build && $(MAKE) -f CMakeFiles/Makefile2 glfw/preinstall
+	cd /Users/pengcheng/Desktop/graphic/hw2/Assignment_2/build && $(MAKE) -f CMakeFiles/Makefile2 glfw/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/pengcheng/Downloads/sub/hw2完整版/Assignment_2/build && $(MAKE) -f CMakeFiles/Makefile2 glfw/preinstall
+	cd /Users/pengcheng/Desktop/graphic/hw2/Assignment_2/build && $(MAKE) -f CMakeFiles/Makefile2 glfw/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/pengcheng/Downloads/sub/hw2完整版/Assignment_2/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/pengcheng/Desktop/graphic/hw2/Assignment_2/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 glfw/CMakeFiles/uninstall.dir/rule:
-	cd /Users/pengcheng/Downloads/sub/hw2完整版/Assignment_2/build && $(MAKE) -f CMakeFiles/Makefile2 glfw/CMakeFiles/uninstall.dir/rule
+	cd /Users/pengcheng/Desktop/graphic/hw2/Assignment_2/build && $(MAKE) -f CMakeFiles/Makefile2 glfw/CMakeFiles/uninstall.dir/rule
 .PHONY : glfw/CMakeFiles/uninstall.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ uninstall: glfw/CMakeFiles/uninstall.dir/rule
 
 # fast build rule for target.
 uninstall/fast:
-	cd /Users/pengcheng/Downloads/sub/hw2完整版/Assignment_2/build && $(MAKE) -f glfw/CMakeFiles/uninstall.dir/build.make glfw/CMakeFiles/uninstall.dir/build
+	cd /Users/pengcheng/Desktop/graphic/hw2/Assignment_2/build && $(MAKE) -f glfw/CMakeFiles/uninstall.dir/build.make glfw/CMakeFiles/uninstall.dir/build
 .PHONY : uninstall/fast
 
 # Help Target
@@ -195,6 +195,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/pengcheng/Downloads/sub/hw2完整版/Assignment_2/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/pengcheng/Desktop/graphic/hw2/Assignment_2/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

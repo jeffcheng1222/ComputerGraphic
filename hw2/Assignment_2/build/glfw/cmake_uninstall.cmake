@@ -1,9 +1,9 @@
 
-if (NOT EXISTS "/Users/pengcheng/Downloads/sub/hw2完整版/Assignment_2/build/glfw/install_manifest.txt")
-  message(FATAL_ERROR "Cannot find install manifest: \"/Users/pengcheng/Downloads/sub/hw2完整版/Assignment_2/build/glfw/install_manifest.txt\"")
+if (NOT EXISTS "/Users/pengcheng/Desktop/graphic/hw2/Assignment_2/build/glfw/install_manifest.txt")
+  message(FATAL_ERROR "Cannot find install manifest: \"/Users/pengcheng/Desktop/graphic/hw2/Assignment_2/build/glfw/install_manifest.txt\"")
 endif()
 
-file(READ "/Users/pengcheng/Downloads/sub/hw2完整版/Assignment_2/build/glfw/install_manifest.txt" files)
+file(READ "/Users/pengcheng/Desktop/graphic/hw2/Assignment_2/build/glfw/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 
 foreach (file ${files})

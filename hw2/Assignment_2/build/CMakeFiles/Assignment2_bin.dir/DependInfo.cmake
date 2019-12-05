@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/pengcheng/Downloads/sub/hw2完整版/Assignment_2/src/Helpers.cpp" "/Users/pengcheng/Downloads/sub/hw2完整版/Assignment_2/build/CMakeFiles/Assignment2_bin.dir/src/Helpers.cpp.o"
-  "/Users/pengcheng/Downloads/sub/hw2完整版/Assignment_2/src/main.cpp" "/Users/pengcheng/Downloads/sub/hw2完整版/Assignment_2/build/CMakeFiles/Assignment2_bin.dir/src/main.cpp.o"
+  "/Users/pengcheng/Desktop/graphic/hw2/Assignment_2/src/Helpers.cpp" "/Users/pengcheng/Desktop/graphic/hw2/Assignment_2/build/CMakeFiles/Assignment2_bin.dir/src/Helpers.cpp.o"
+  "/Users/pengcheng/Desktop/graphic/hw2/Assignment_2/src/main.cpp" "/Users/pengcheng/Desktop/graphic/hw2/Assignment_2/build/CMakeFiles/Assignment2_bin.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "Clang")
 
@@ -14,12 +14,12 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../src"
   "../../ext/eigen"
   "../../ext/glfw/include"
-  "/Users/pengcheng/Downloads/sub/hw2完整版/ext/glfw/include"
+  "/Users/pengcheng/Desktop/graphic/hw2/ext/glfw/include"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/Users/pengcheng/Downloads/sub/hw2完整版/Assignment_2/build/glfw/src/CMakeFiles/glfw.dir/DependInfo.cmake"
+  "/Users/pengcheng/Desktop/graphic/hw2/Assignment_2/build/glfw/src/CMakeFiles/glfw.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.
